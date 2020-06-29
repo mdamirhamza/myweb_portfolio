@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    font-family: 'poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.description{
+    text-align: justify;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, coral);
+    padding: 8px 22px;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.link-button:hover{
+    background-color: darkmagenta;
+    color: black;
+}
+.link-button:active{
+    color: darkcyan;
+}
+..link-button:visited{
+    color: darksalmon;
+    background-color: dimgray;
+}
