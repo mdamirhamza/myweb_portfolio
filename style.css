@@ -19,6 +19,7 @@ h1{
 }
 .description{
     text-align: justify;
+    font-size: 13px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -29,7 +30,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(tomato, coral);
+    background-color: tomato;
     padding: 8px 22px;
     color: cornsilk;
     font-weight: bold;
@@ -37,13 +38,91 @@ section{
     border-radius: 5px;
 }
 .link-button:hover{
-    background-color: darkmagenta;
-    color: black;
+    background-color: orange;
+    color: tomato;
+    transition: 0.5s;
 }
 .link-button:active{
-    color: darkcyan;
+    color: mediumslateblue;
 }
 ..link-button:visited{
     color: darksalmon;
     background-color: dimgray;
+}
+
+
+
+/*ANOTHER DREM SECION*/
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dawnload-btn{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+}
+.dawnload-btn:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.5s;
+}
+.dawnload-btn:active{
+    color: mediumslateblue;
+}
+.dream{
+    color: rgb(214, 74, 151);
+}
+.big{
+    color: #ffaa2d;
+}
+
+
+/*Experience section from here*/
+.experience-box{
+    box-shadow: 10px 10px 40px grey;
+    height: 70%;
+    border-radius: 5px;
+    background-color: white;
+}
+.pera{
+    text-align: justify;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,lightsalmon, #FF277B);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+
+/*Footer from here*/
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(167, 154, 154, 0.493);
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+.footer-copyright{
+    color: tomato;
+    font-weight: bold;
 }
